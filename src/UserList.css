@@ -5,5 +5,11 @@
 
 li{
     padding: 10px;
+    width: 25%;
     border: 1px red solid;
+}
+
+h1{
+    padding: 10px;
+    text-align: center;
 }

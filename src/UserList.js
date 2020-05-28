@@ -18,9 +18,10 @@ function UserList() {
 
     return (
         <div>
-            <ul className="list-group list-group-flush">
+            <h1>USERS LIST</h1>
+            <ul className="list-group flex-container">
                 {data.map(item => 
-                    <div key={item.objectID} className="container">
+                    <div key={item.id} className="container">
                         <li className="list-group-item-primary">Id: {item.id}</li>
                         <li className="list-group-item-secondary">Name: {item.name}</li>
                         <li className="list-group-item-success">UserName: {item.username}</li>
